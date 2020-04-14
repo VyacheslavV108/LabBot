@@ -19,13 +19,13 @@ import slava.bot.events.GuildMemberLeave;
 public class LabBot {
 	public static JDA jda;
 	
-	//«¿ƒ¿≈Ã ¡Œ“” œ–≈‘» — ƒÀﬂ ≈√Œ ¬€«Œ¬¿
+	//√á√Ä√Ñ√Ä√Ö√å √Å√é√í√ì √è√ê√Ö√î√à√ä√ë √Ñ√ã√ü √Ö√É√é √Ç√õ√á√é√Ç√Ä
 	public static String prefix = "~";
 	
-	//√À¿¬Õ€… Ã≈“Œƒ
+	//√É√ã√Ä√Ç√ç√õ√â √å√Ö√í√é√Ñ
 	public static void main(String[] args ) throws LoginException{
-		jda =  new JDABuilder(AccountType.BOT).setToken("Njc4MjQ5NDY0MzQ2OTY4MDkw.XkgNnA.pHE0PWIroLmEpH16e88tRoGxp-M").build();
-		//ƒ≈À¿≈Ã ≈Ã” ŒÕÀ¿…Õ —“¿“”—
+		jda =  new JDABuilder(AccountType.BOT).setToken("    ").build();
+		//√Ñ√Ö√ã√Ä√Ö√å √Ö√å√ì √é√ç√ã√Ä√â√ç √ë√í√Ä√í√ì√ë
 		jda.getPresence().setStatus(OnlineStatus.ONLINE);
 		
 		jda.addEventListener(new Commands());
